@@ -36,7 +36,7 @@ class CalculatorTest {
     void testDivide() {
         assertEquals(2.5, calculator.divide(5, 2));
     }
-//for second commit
+//for second commit 1
     @Test
     void testDivideByZero() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> calculator.divide(5, 0));
